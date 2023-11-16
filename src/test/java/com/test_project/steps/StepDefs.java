@@ -24,6 +24,7 @@ public class StepDefs {
     ReviewAndPaymentsPage reviewAndPaymentsPage = new ReviewAndPaymentsPage();
     OrderConfirmationPage orderConfirmationPage = new OrderConfirmationPage();
     ShoppingCartPage shoppingCartPage = new ShoppingCartPage();
+    SearchResultPage searchResultPage = new SearchResultPage();
 
     @Given("user is on magento shop's landing page")
     public void userIsOnMagentoShopSLandingPage() {
@@ -37,7 +38,7 @@ public class StepDefs {
 
     @And("user opens product page")
     public void userOpensFirstProductPage() {
-        landingPage.clickFirstProduct();
+        searchResultPage.clickFirstProduct();
     }
 
 

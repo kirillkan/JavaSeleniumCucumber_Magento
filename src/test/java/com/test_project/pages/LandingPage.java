@@ -10,8 +10,6 @@ public class LandingPage extends BasePage{
     @FindBy(id = "search")
     private WebElement inputSearchTextField;
 
-    @FindBy(xpath = "//div[@class='products wrapper grid products-grid']//li")
-    private WebElement firstProduct;
 
 
 
@@ -19,10 +17,7 @@ public class LandingPage extends BasePage{
         inputSearchTextField.sendKeys(text+Keys.ENTER);
     }
 
-    public void clickFirstProduct(){
-        BrowserUtil.waitforclickablility(firstProduct,10);
-        firstProduct.click();
-    }
+
 
 
 
