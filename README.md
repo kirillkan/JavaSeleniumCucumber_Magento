@@ -16,7 +16,22 @@ In order to use the framework:
 3. Use IntelliJ IDEA to run your desired tests.
 You can use `CRunner.java` to run tests with tags by specifying tags in `tags = "@tagname"` and `FailedTestRunner.java` to rerun failed tests! Alternatively, you can use the terminal to run the tests, for example `mvn clean test` to run all tests.   
 4. To see the report, go to the `target/cucumer` folder in the project root and then open any `.html` file in the browser.
-
+## Project Structure🧐
+```bash
+├───.idea
+└───src
+    └───test
+        ├───java
+        │   └───com
+        │       └───test_project
+        │           ├───pages
+        │           ├───runner
+        │           ├───steps
+        │           └───utility
+        └───resources
+            ├───features
+            └───testData
+```
 ## Languages and Frameworks🧐
 
 The project uses the following:
@@ -76,6 +91,8 @@ The project uses the following:
 
 - ### Browsers⭐
   The project contains the implementation of the `Chrome`,`Edge` and `Firefox` browsers. 
+
+
 
 
 
