@@ -14,7 +14,7 @@ In order to use the framework:
 2. Clone, i.e, download your copy of the repository to your local machine using
 
 3. Use IntelliJ IDEA to run your desired tests.
-You can use `CRunner.java` to run tests with tags by specifying tags in `tags = "@tagname"` and `FailedTestRunner.java` to rerun failed tests! Alternatively, you can use the terminal to run the tests, for example `mvn clean test` to run all tests.   
+You can use  [*CRunner*](src/test/java/com/test_project/runner/CRunner.java) to run tests with tags by specifying tags in `tags = "@tagname"` and  [*FailedTestRunner*](src/test/java/com/test_project/runner/FailedTestRunner.java) to rerun failed tests! Alternatively, you can use the terminal to run the tests, for example `mvn clean test` to run all tests.   
 4. To see the report, go to the `target/cucumer` folder in the project root and then open any `.html` file in the browser.
 ## Project Structure🧐
 ```bash
@@ -59,12 +59,12 @@ The project uses the following:
 - ### Configuration⭐
   The project uses a [*config.properties*](config.properties) file to manage global configurations such as browser type and base url.
 
-    To add a new property, register a new entry in this file.
+    To add a new property, register a new entry in this file:
       ```
       key=value
       ```
 
-  use`src/test/java/com/test_project/utility/ConfigurationReader.java` class method to read [*config.properties*](config.properties)
+  use `getProperty()` method in [*ConfigurationReader*](src/test/java/com/test_project/utility/ConfigurationReader.java) class methods to read [*config.properties*](config.properties)
     
 - ### Cucumber Integration⭐
 
@@ -76,7 +76,7 @@ The project uses the following:
   Page Objects represent individual web pages, encapsulating their elements and related behaviors. This design promotes code reusability and easier maintenance.
 - ### Test Runner Configuration⭐
 
-    The `TestRunner` class configures Cucumber options, specifying the location of feature files and step definitions for test execution.
+    The [*CRunner*](src/test/java/com/test_project/runner/CRunner.java) class configures Cucumber options, specifying the location of feature files and step definitions for test execution.
 
 - ###  Cucumber Reports⭐
 
@@ -86,7 +86,7 @@ The project uses the following:
 
   
 - ### Test Data⭐
-  The project uses *xlsx* file `src/test/resources/testData/userMockTestData.xlsx`to store test data and apache-poi to retrieve the data using `src/test/java/com/test_project/utility/ExcelUtil.java` utility class
+  The project uses *xlsx* file `src/test/resources/testData/userMockTestData.xlsx` to store test data and apache-poi to retrieve the data using [*ExcelUtil*](src/test/java/com/test_project/utility/ExcelUtil.java) utility class
     
 
 - ### Browsers⭐
