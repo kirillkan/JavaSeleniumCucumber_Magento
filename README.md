@@ -43,7 +43,6 @@ The project uses the following:
 - *[Junit]
 - *[apache.poi]
 - *[bonigarcia webdrivermanager]
-- *[selenium-java]
 - *[maven-surefire-plugin]
 - *[IntelliJ IDEA]
 
