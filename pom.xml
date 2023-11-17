@@ -73,7 +73,6 @@
                     <runOrder>Alphabetical</runOrder>
                     <includes>
                         <include>**/*CRunner.java</include>
-                        <include>**/*FailedTestRunner.java</include>
                     </includes>
                 </configuration>
             </plugin>
