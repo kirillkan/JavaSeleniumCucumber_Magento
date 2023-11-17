@@ -13,7 +13,8 @@ In order to use the framework:
 
 2. Clone, i.e, download your copy of the repository to your local machine using
 
-3. Use IntelliJ IDEA to run your desired tests. Alternatively, you can use the terminal to run the tests, for example `mvn clean test` to run all the tests using the chrome browser in headful mode.
+3. Use IntelliJ IDEA to run your desired tests.
+You can use `CRunner.java` to run tests with tags by specifying tags in `tags = "@wip"` and `FailedTestRunner.java` to rerun failed tests! Alternatively, you can use the terminal to run the tests, for example `mvn clean test` to run all tests.   
 4. To see the report, go to the `target/cucumer` folder in the project root and then open any `.html` file.
 
 ## Languages and Frameworks
@@ -28,6 +29,7 @@ The project uses the following:
 - *[apache.poi]
 - *[bonigarcia webdrivermanager]
 - *[selenium-java]
+- *[maven-surefire-plugin]
 - *[IntelliJ IDEA]
 
 
@@ -47,7 +49,7 @@ The project uses the following:
       key=value
       ```
 
-    use `src/test/java/com/test_project/utility/ConfigurationReader.java` class methods to read [*config.properties*](config.properties)
+  use`src/test/java/com/test_project/utility/ConfigurationReader.java` class method to read [*config.properties*](config.properties)
     
 - ### Cucumber Integration
 
