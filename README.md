@@ -11,7 +11,7 @@ In order to use the framework:
 
 1. Fork the repository.
 
-2. Clone, i.e, download your copy of the repository to your local machine using
+2. Clone, i.e, download your copy of the repository to your local machine.
 
 3. Use IntelliJ IDEA to run your desired tests.
 You can use  [*CRunner*](src/test/java/com/test_project/runner/CRunner.java) to run tests with tags by specifying tags in `tags = "@tagname"` and  [*FailedTestRunner*](src/test/java/com/test_project/runner/FailedTestRunner.java) to rerun failed tests! Alternatively, you can use the terminal to run the tests, for example `mvn clean test` to run all tests.   
