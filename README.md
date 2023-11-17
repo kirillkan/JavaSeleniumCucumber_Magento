@@ -42,7 +42,7 @@ The project uses the following:
 - *[Cucumber](https://mvnrepository.com/artifact/io.cucumber/cucumber-java)
 - *[cucumber reporting-plugin](https://mvnrepository.com/artifact/me.jvt.cucumber/reporting-plugin)
 - *[Junit](https://mvnrepository.com/artifact/io.cucumber/cucumber-junit)
-- *[apache.poi](https://mvnrepository.com/artifact/org.apache.poi/poi))
+- *[apache.poi](https://mvnrepository.com/artifact/org.apache.poi/poi)
 - *[bonigarcia webdrivermanager](https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager)
 - *[maven-surefire-plugin](https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-surefire-plugin)
 - *[IntelliJ IDEA](https://www.jetbrains.com/idea/)
