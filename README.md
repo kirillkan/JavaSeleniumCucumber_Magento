@@ -64,7 +64,7 @@ The project uses the following:
       key=value
       ```
 
-  use `getProperty()` method in [*ConfigurationReader*](src/test/java/com/test_project/utility/ConfigurationReader.java) class methods to read [*config.properties*](config.properties)
+  use `getProperty()` method in [*ConfigurationReader*](src/test/java/com/test_project/utility/ConfigurationReader.java) class to read [*config.properties*](config.properties)
     
 - ### Cucumber Integration⭐
 
