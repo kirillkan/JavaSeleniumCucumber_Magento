@@ -15,7 +15,7 @@ In order to use the framework:
 
 3. Use IntelliJ IDEA to run your desired tests.
 You can use  [*CRunner*](src/test/java/com/test_project/runner/CRunner.java) to run tests with tags by specifying tags in `tags = "@tagname"` and  [*FailedTestRunner*](src/test/java/com/test_project/runner/FailedTestRunner.java) to rerun failed tests!
-Alternatively, you can use the terminal to run the tests, for example `mvn clean test` to run all tests, or `mvn -Dsurefire.rerunFailingTestsCount=4 clean test` to rerun flakes automatically or `mvn -Dsurefire.rerunFailingTestsCount=4 clean test -Dbrowser=chrome -Dcucumber.filter.tags=@regression` for running specific tags / browser and rerunning flakes automatically.
+Alternatively, you can use the terminal to run the tests, for example `mvn clean test` to run all tests, or `mvn -Dsurefire.rerunFailingTestsCount=4 clean test` to rerun failing tests automatically or `mvn -Dsurefire.rerunFailingTestsCount=4 clean test -Dbrowser=chrome -Dcucumber.filter.tags=@regression` for running specific tags / browser and rerunning failing tests automatically.
 5. To see the report, go to the `target/cucumer` folder in the project root and then open any `.html` file in the browser.
 ## Project Structure🧐
 ```bash
