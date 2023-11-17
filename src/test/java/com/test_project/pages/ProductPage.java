@@ -29,6 +29,7 @@ public class ProductPage extends BasePage {
     private WebElement productSelectFirstColor;
 
 
+
     public void enterQtyAndAddToCart(String qty) {
         qtyField.sendKeys(Keys.DELETE + qty);
 
@@ -46,7 +47,6 @@ public class ProductPage extends BasePage {
     public double getProductPrice() {
         return Double.parseDouble(productPrice.getText().substring(1));
     }
-
 
     public void tryToSelectSizeAndColor() {
             try {

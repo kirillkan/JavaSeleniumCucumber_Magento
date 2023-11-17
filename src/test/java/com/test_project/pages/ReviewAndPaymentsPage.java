@@ -1,6 +1,5 @@
 package com.test_project.pages;
 
-
 import com.test_project.utility.Driver;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;

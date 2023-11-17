@@ -1,12 +1,10 @@
 package com.test_project.pages;
 
-
 import com.test_project.utility.BrowserUtil;
 import com.test_project.utility.ExcelUtil;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.Select;
-
 import java.util.List;
 import java.util.Map;
 

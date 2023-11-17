@@ -1,6 +1,5 @@
 package com.test_project.pages;
 
-
 import com.test_project.utility.BrowserUtil;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
